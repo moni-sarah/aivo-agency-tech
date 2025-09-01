@@ -38,10 +38,37 @@ const translations = {
     'services.integration.title': 'Intégration IA Avancée',
     'services.integration.description': 'Configuration d\'intégration IA, framework d\'intégration API et optimisation de modèles d\'IA. Nous connectons vos systèmes existants avec des solutions d\'IA de pointe pour maximiser votre efficacité opérationnelle.',
     
+    // About Section
+    'about.title': 'À propos de nous',
+    'about.story': 'Chez BossoTech, tout a commencé par une conviction forte : l\'intelligence artificielle peut libérer les professionnels des tâches répétitives pour qu\'ils se concentrent sur ce qui crée de la valeur — la relation client, la stratégie et le développement.',
+    'about.founding': 'Fondée par une passionnée de technologie et enthousiaste en intelligence artificielle, BossoTech s\'est donné pour mission de rendre l\'automatisation accessible, efficace et réellement utile, quel que soit le secteur d\'activité.',
+    'about.challenges': 'Face aux défis du quotidien – surcharge de travail, gestion des demandes, manque de temps – nous avons créé des agents IA sur mesure capables de répondre automatiquement aux clients, de gérer les rendez-vous, de filtrer les appels ou d\'assister dans des processus métiers variés.',
+    'about.today': 'Aujourd\'hui, BossoTech accompagne des entreprises suisses de différentes tailles et secteurs, avec des solutions fiables, évolutives et faciles à intégrer.',
+    'about.promise': '🎯 Notre promesse : mettre la puissance de l\'IA au service de vos objectifs concrets, avec un accompagnement humain et local à chaque étape',
+    
+    // Vision & Mission
+    'vision.title': 'Notre Vision',
+    'vision.text': 'Nous envisageons un avenir où l\'IA s\'intègre de manière transparente aux processus commerciaux, créant une valeur durable et un avantage concurrentiel',
+    'mission.title': 'Notre Mission',
+    'mission.text': 'Notre mission est de donner aux entreprises les moyens d\'agir grâce à des technologies d\'IA innovantes qui stimulent la croissance et l\'efficacité',
+    
+    // Solutions Section
+    'solutions.title': 'Nos Solutions d\'Automatisation',
+    'solutions.intro': 'Nous créons des solutions d\'automatisation intelligentes basées sur l\'IA pour aider les entreprises à :',
+    'solutions.benefit1': 'améliorer leur service client,',
+    'solutions.benefit2': 'réduire les tâches manuelles répétitives,',
+    'solutions.benefit3': 'gagner en efficacité opérationnelle.',
+    'solutions.custom': 'Nos agents IA sont personnalisés pour s\'adapter aux besoins spécifiques de chaque client, quel que soit leur secteur d\'activité',
+    
+    // Case Studies
+    'case_studies.title': 'Études de Cas',
+    'case_studies.subtitle': 'Découvrez comment nos solutions transforment les entreprises',
+    
     // Common
     'common.get_started': 'Commencer',
     'common.learn_more': 'En savoir plus',
     'common.contact_us': 'Nous contacter',
+    'common.join_today': 'Rejoignez-nous aujourd\'hui',
   },
   en: {
     // Navigation
@@ -70,10 +97,37 @@ const translations = {
     'services.integration.title': 'Advanced AI Integration',
     'services.integration.description': 'AI Integration Setup, API Integration Framework and AI model fine-tuning. We connect your existing systems with cutting-edge AI solutions to maximize your operational efficiency.',
     
+    // About Section
+    'about.title': 'About Us',
+    'about.story': 'At BossoTech, it all started with a strong conviction: artificial intelligence can free professionals from repetitive tasks so they can focus on what creates value — customer relationships, strategy and development.',
+    'about.founding': 'Founded by a technology enthusiast passionate about artificial intelligence, BossoTech has made it its mission to make automation accessible, efficient and truly useful, regardless of the sector of activity.',
+    'about.challenges': 'Faced with daily challenges – work overload, request management, lack of time – we have created custom AI agents capable of automatically responding to customers, managing appointments, filtering calls or assisting in various business processes.',
+    'about.today': 'Today, BossoTech supports Swiss companies of different sizes and sectors, with reliable, scalable and easy-to-integrate solutions.',
+    'about.promise': '🎯 Our promise: put the power of AI at the service of your concrete objectives, with human and local support at every step',
+    
+    // Vision & Mission
+    'vision.title': 'Our Vision',
+    'vision.text': 'We envision a future where AI seamlessly integrates into business processes, creating lasting value and competitive advantage',
+    'mission.title': 'Our Mission',
+    'mission.text': 'Our mission is to empower businesses through innovative AI technologies that drive growth and efficiency',
+    
+    // Solutions Section
+    'solutions.title': 'Our Automation Solutions',
+    'solutions.intro': 'We create intelligent AI-based automation solutions to help businesses:',
+    'solutions.benefit1': 'improve their customer service,',
+    'solutions.benefit2': 'reduce repetitive manual tasks,',
+    'solutions.benefit3': 'gain operational efficiency.',
+    'solutions.custom': 'Our AI agents are customized to adapt to the specific needs of each client, regardless of their sector of activity',
+    
+    // Case Studies
+    'case_studies.title': 'Case Studies',
+    'case_studies.subtitle': 'Discover how our solutions transform businesses',
+    
     // Common
     'common.get_started': 'Get Started',
     'common.learn_more': 'Learn More',
     'common.contact_us': 'Contact Us',
+    'common.join_today': 'Join Us Today',
   },
   de: {
     // Navigation
@@ -102,10 +156,37 @@ const translations = {
     'services.integration.title': 'Erweiterte KI-Integration',
     'services.integration.description': 'KI-Integrations-Setup, API-Integrations-Framework und KI-Modell-Feinabstimmung. Wir verbinden Ihre bestehenden Systeme mit modernsten KI-Lösungen, um Ihre operative Effizienz zu maximieren.',
     
+    // About Section
+    'about.title': 'Über uns',
+    'about.story': 'Bei BossoTech begann alles mit einer starken Überzeugung: Künstliche Intelligenz kann Fachkräfte von repetitiven Aufgaben befreien, damit sie sich auf wertschöpfende Tätigkeiten konzentrieren können — Kundenbeziehungen, Strategie und Entwicklung.',
+    'about.founding': 'Gegründet von einer Technologie-Enthusiastin und KI-Begeisterten hat sich BossoTech zur Mission gemacht, Automatisierung zugänglich, effizient und wirklich nützlich zu machen, unabhängig vom Tätigkeitsbereich.',
+    'about.challenges': 'Angesichts der täglichen Herausforderungen – Arbeitsüberlastung, Anfragenmanagement, Zeitmangel – haben wir maßgeschneiderte KI-Agenten entwickelt, die automatisch auf Kunden antworten, Termine verwalten, Anrufe filtern oder bei verschiedenen Geschäftsprozessen unterstützen können.',
+    'about.today': 'Heute unterstützt BossoTech Schweizer Unternehmen verschiedener Größen und Branchen mit zuverlässigen, skalierbaren und einfach zu integrierenden Lösungen.',
+    'about.promise': '🎯 Unser Versprechen: Die Macht der KI in den Dienst Ihrer konkreten Ziele zu stellen, mit menschlicher und lokaler Betreuung bei jedem Schritt',
+    
+    // Vision & Mission
+    'vision.title': 'Unsere Vision',
+    'vision.text': 'Wir stellen uns eine Zukunft vor, in der KI nahtlos in Geschäftsprozesse integriert wird und nachhaltigen Wert sowie Wettbewerbsvorteile schafft',
+    'mission.title': 'Unsere Mission',
+    'mission.text': 'Unsere Mission ist es, Unternehmen durch innovative KI-Technologien zu stärken, die Wachstum und Effizienz fördern',
+    
+    // Solutions Section
+    'solutions.title': 'Unsere Automatisierungslösungen',
+    'solutions.intro': 'Wir entwickeln intelligente KI-basierte Automatisierungslösungen, um Unternehmen dabei zu helfen:',
+    'solutions.benefit1': 'ihren Kundenservice zu verbessern,',
+    'solutions.benefit2': 'repetitive manuelle Aufgaben zu reduzieren,',
+    'solutions.benefit3': 'operative Effizienz zu gewinnen.',
+    'solutions.custom': 'Unsere KI-Agenten sind individuell angepasst, um sich an die spezifischen Bedürfnisse jedes Kunden anzupassen, unabhängig von ihrem Tätigkeitsbereich',
+    
+    // Case Studies
+    'case_studies.title': 'Fallstudien',
+    'case_studies.subtitle': 'Entdecken Sie, wie unsere Lösungen Unternehmen transformieren',
+    
     // Common
     'common.get_started': 'Loslegen',
     'common.learn_more': 'Mehr erfahren',
     'common.contact_us': 'Kontakt aufnehmen',
+    'common.join_today': 'Heute beitreten',
   }
 };
 
