@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Send, Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Send, MessageCircle } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 export const ContactSection = () => {
@@ -83,7 +83,7 @@ export const ContactSection = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid lg:grid-cols-2 gap-12 items-start max-w-4xl mx-auto">
             {/* Contact Form */}
             <div className="animate-slide-in-left">
               <Card className="shadow-elegant hover:shadow-glow transition-all duration-500 border-border bg-card/80 backdrop-blur-sm">
@@ -182,46 +182,8 @@ export const ContactSection = () => {
               </Card>
             </div>
 
-            {/* Contact Information */}
-            <div className="space-y-8 animate-slide-in-right">
-              <Card className="p-8 shadow-elegant hover:shadow-glow transition-all duration-500 border-border bg-card/80 backdrop-blur-sm">
-                <h3 className="text-2xl font-bold mb-6 text-foreground">
-                  {t('contact.info.title')}
-                </h3>
-                <div className="space-y-6">
-                  <div className="flex items-start gap-4 group">
-                    <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-dark rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                      <Phone className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-foreground mb-1">{t('contact.info.phone')}</h4>
-                      <p className="text-muted-foreground">+41 XX XXX XX XX</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4 group">
-                    <div className="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                      <Mail className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-foreground mb-1">{t('contact.info.email')}</h4>
-                      <p className="text-muted-foreground">contact@bossotech.ch</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start gap-4 group">
-                    <div className="w-12 h-12 bg-gradient-to-br from-accent to-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                      <MapPin className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-foreground mb-1">{t('contact.info.location')}</h4>
-                      <p className="text-muted-foreground">Suisse</p>
-                    </div>
-                  </div>
-                </div>
-              </Card>
-
-              {/* Call to Action */}
+            {/* Call to Action */}
+            <div className="animate-slide-in-right">
               <Card className="p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border border-primary/20 shadow-elegant">
                 <h3 className="text-xl font-bold mb-4 text-foreground">
                   {t('contact.cta.title')}
