@@ -44,7 +44,6 @@ const translations = {
     'about.founding': 'Fondée par une passionnée de technologie et enthousiaste en intelligence artificielle, BossoTech s\'est donné pour mission de rendre l\'automatisation accessible, efficace et réellement utile, quel que soit le secteur d\'activité.',
     'about.challenges': 'Face aux défis du quotidien – surcharge de travail, gestion des demandes, manque de temps – nous avons créé des agents IA sur mesure capables de répondre automatiquement aux clients, de gérer les rendez-vous, de filtrer les appels ou d\'assister dans des processus métiers variés.',
     'about.today': 'Aujourd\'hui, BossoTech accompagne des entreprises suisses de différentes tailles et secteurs, avec des solutions fiables, évolutives et faciles à intégrer.',
-    'about.promise': '🎯 Notre promesse : mettre la puissance de l\'IA au service de vos objectifs concrets, avec un accompagnement humain et local à chaque étape',
     
     // Vision & Mission
     'vision.title': 'Notre Vision',
@@ -126,7 +125,6 @@ const translations = {
     'about.founding': 'Founded by a technology enthusiast passionate about artificial intelligence, BossoTech has made it its mission to make automation accessible, efficient and truly useful, regardless of the sector of activity.',
     'about.challenges': 'Faced with daily challenges – work overload, request management, lack of time – we have created custom AI agents capable of automatically responding to customers, managing appointments, filtering calls or assisting in various business processes.',
     'about.today': 'Today, BossoTech supports Swiss companies of different sizes and sectors, with reliable, scalable and easy-to-integrate solutions.',
-    'about.promise': '🎯 Our promise: put the power of AI at the service of your concrete objectives, with human and local support at every step',
     
     // Vision & Mission
     'vision.title': 'Our Vision',
@@ -208,7 +206,6 @@ const translations = {
     'about.founding': 'Gegründet von einer Technologie-Enthusiastin und KI-Begeisterten hat sich BossoTech zur Mission gemacht, Automatisierung zugänglich, effizient und wirklich nützlich zu machen, unabhängig vom Tätigkeitsbereich.',
     'about.challenges': 'Angesichts der täglichen Herausforderungen – Arbeitsüberlastung, Anfragenmanagement, Zeitmangel – haben wir maßgeschneiderte KI-Agenten entwickelt, die automatisch auf Kunden antworten, Termine verwalten, Anrufe filtern oder bei verschiedenen Geschäftsprozessen unterstützen können.',
     'about.today': 'Heute unterstützt BossoTech Schweizer Unternehmen verschiedener Größen und Branchen mit zuverlässigen, skalierbaren und einfach zu integrierenden Lösungen.',
-    'about.promise': '🎯 Unser Versprechen: Die Macht der KI in den Dienst Ihrer konkreten Ziele zu stellen, mit menschlicher und lokaler Betreuung bei jedem Schritt',
     
     // Vision & Mission
     'vision.title': 'Unsere Vision',

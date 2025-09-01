@@ -88,14 +88,6 @@ export const AboutSection = () => {
                 style={{ backgroundImage: `url(${aboutSwissExpertise})` }}
               />
               <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-secondary/80 to-accent/90" />
-              <div className="relative z-10 p-12 text-center">
-                <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 max-w-4xl mx-auto">
-                  <p className="text-xl font-semibold text-white flex items-start gap-3 justify-center">
-                    <CheckCircle className="w-6 h-6 text-white mt-0.5 flex-shrink-0" />
-                    {t('about.promise')}
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
           
