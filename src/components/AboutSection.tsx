@@ -1,10 +1,9 @@
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
-import { Sparkles, Target, Rocket, CheckCircle } from 'lucide-react';
+import { Sparkles, CheckCircle } from 'lucide-react';
 import aboutAiAutomation from '@/assets/about-ai-automation.jpg';
 import aboutBusinessTransformation from '@/assets/about-business-transformation.jpg';
-import aboutVisionMission from '@/assets/about-vision-mission.jpg';
 import aboutSwissExpertise from '@/assets/about-swiss-expertise.jpg';
 
 export const AboutSection = () => {
@@ -95,53 +94,6 @@ export const AboutSection = () => {
                     <CheckCircle className="w-6 h-6 text-white mt-0.5 flex-shrink-0" />
                     {t('about.promise')}
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Vision & Mission with background image */}
-          <div className="mb-20 relative">
-            <div 
-              className="absolute inset-0 rounded-3xl bg-cover bg-center opacity-10"
-              style={{ backgroundImage: `url(${aboutVisionMission})` }}
-            />
-            <div className="relative z-10 grid md:grid-cols-2 gap-8">
-              <div className="group animate-fade-in-delay-3">
-                <div className="bg-card/95 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-card hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-primary/20 to-transparent rounded-bl-3xl" />
-                  <div className="relative z-10">
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-dark rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <Target className="w-6 h-6 text-white" />
-                      </div>
-                      <h3 className="text-2xl font-bold text-primary">
-                        {t('vision.title')}
-                      </h3>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {t('vision.text')}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="group animate-fade-in-delay-4">
-                <div className="bg-card/95 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-card hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-secondary/20 to-transparent rounded-bl-3xl" />
-                  <div className="relative z-10">
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <Rocket className="w-6 h-6 text-white" />
-                      </div>
-                      <h3 className="text-2xl font-bold text-secondary">
-                        {t('mission.title')}
-                      </h3>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {t('mission.text')}
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
