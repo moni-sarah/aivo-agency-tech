@@ -2,6 +2,10 @@ import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { Sparkles, Target, Rocket, CheckCircle } from 'lucide-react';
+import aboutAiAutomation from '@/assets/about-ai-automation.jpg';
+import aboutBusinessTransformation from '@/assets/about-business-transformation.jpg';
+import aboutVisionMission from '@/assets/about-vision-mission.jpg';
+import aboutSwissExpertise from '@/assets/about-swiss-expertise.jpg';
 
 export const AboutSection = () => {
   const { t } = useLanguage();
@@ -15,7 +19,7 @@ export const AboutSection = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           {/* Header with animation */}
           <div className="text-center mb-20 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6 animate-scale-in">
@@ -27,71 +31,117 @@ export const AboutSection = () => {
             </h2>
           </div>
           
-          {/* Story section with staggered animations */}
-          <div className="space-y-8 text-lg leading-relaxed mb-20">
-            <div className="bg-card p-8 rounded-2xl border border-border shadow-elegant hover:shadow-glow transition-all duration-500 animate-fade-in-delay-1 group">
-              <p className="text-xl font-semibold text-foreground mb-4 group-hover:text-primary transition-colors duration-300">
-                {t('about.story')}
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-card p-6 rounded-xl border border-border hover:border-primary/30 transition-all duration-300 animate-slide-in-left">
-                <p className="text-muted-foreground">{t('about.founding')}</p>
+          {/* Main story section with hero image */}
+          <div className="mb-20 animate-fade-in-delay-1">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <div className="bg-card p-8 rounded-2xl border border-border shadow-elegant hover:shadow-glow transition-all duration-500 group">
+                  <p className="text-xl font-semibold text-foreground mb-4 group-hover:text-primary transition-colors duration-300">
+                    {t('about.story')}
+                  </p>
+                </div>
+                
+                <div className="bg-card p-6 rounded-xl border border-border hover:border-primary/30 transition-all duration-300">
+                  <p className="text-muted-foreground leading-relaxed">{t('about.founding')}</p>
+                </div>
               </div>
-              <div className="bg-card p-6 rounded-xl border border-border hover:border-secondary/30 transition-all duration-300 animate-slide-in-right">
-                <p className="text-muted-foreground">{t('about.challenges')}</p>
-              </div>
-            </div>
-            
-            <div className="bg-gradient-to-r from-primary/5 to-secondary/5 p-8 rounded-2xl border border-primary/20 animate-fade-in-delay-2">
-              <p className="text-muted-foreground mb-6">{t('about.today')}</p>
               
-              <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-6 rounded-xl border border-primary/30 backdrop-blur-sm">
-                <p className="text-lg font-semibold text-foreground flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-primary mt-0.5 flex-shrink-0" />
-                  {t('about.promise')}
-                </p>
+              <div className="relative group">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500" />
+                <img 
+                  src={aboutAiAutomation} 
+                  alt="AI Automation Concept" 
+                  className="relative z-10 w-full h-[400px] object-cover rounded-2xl shadow-elegant group-hover:shadow-glow transition-all duration-500"
+                />
               </div>
             </div>
           </div>
-          
-          {/* Vision & Mission with enhanced animations */}
-          <div className="grid md:grid-cols-2 gap-8 mb-20">
-            <div className="group animate-fade-in-delay-3">
-              <div className="bg-card p-8 rounded-2xl border border-border shadow-card hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-primary/20 to-transparent rounded-bl-3xl" />
-                <div className="relative z-10">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-dark rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                      <Target className="w-6 h-6 text-white" />
-                    </div>
-                    <h3 className="text-2xl font-bold text-primary">
-                      {t('vision.title')}
-                    </h3>
-                  </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {t('vision.text')}
+
+          {/* Business transformation section */}
+          <div className="mb-20 animate-fade-in-delay-2">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="relative group order-2 lg:order-1">
+                <div className="absolute inset-0 bg-gradient-to-r from-secondary/20 to-accent/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500" />
+                <img 
+                  src={aboutBusinessTransformation} 
+                  alt="Business Transformation" 
+                  className="relative z-10 w-full h-[400px] object-cover rounded-2xl shadow-elegant group-hover:shadow-glow transition-all duration-500"
+                />
+              </div>
+              
+              <div className="space-y-6 order-1 lg:order-2">
+                <div className="bg-card p-6 rounded-xl border border-border hover:border-secondary/30 transition-all duration-300">
+                  <p className="text-muted-foreground leading-relaxed">{t('about.challenges')}</p>
+                </div>
+                
+                <div className="bg-gradient-to-r from-primary/5 to-secondary/5 p-8 rounded-2xl border border-primary/20">
+                  <p className="text-muted-foreground mb-6">{t('about.today')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Swiss expertise with image background */}
+          <div className="mb-20 animate-fade-in-delay-3">
+            <div className="relative rounded-3xl overflow-hidden">
+              <div 
+                className="absolute inset-0 bg-cover bg-center"
+                style={{ backgroundImage: `url(${aboutSwissExpertise})` }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-secondary/80 to-accent/90" />
+              <div className="relative z-10 p-12 text-center">
+                <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 max-w-4xl mx-auto">
+                  <p className="text-xl font-semibold text-white flex items-start gap-3 justify-center">
+                    <CheckCircle className="w-6 h-6 text-white mt-0.5 flex-shrink-0" />
+                    {t('about.promise')}
                   </p>
                 </div>
               </div>
             </div>
-            
-            <div className="group animate-fade-in-delay-4">
-              <div className="bg-card p-8 rounded-2xl border border-border shadow-card hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-secondary/20 to-transparent rounded-bl-3xl" />
-                <div className="relative z-10">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                      <Rocket className="w-6 h-6 text-white" />
+          </div>
+          
+          {/* Vision & Mission with background image */}
+          <div className="mb-20 relative">
+            <div 
+              className="absolute inset-0 rounded-3xl bg-cover bg-center opacity-10"
+              style={{ backgroundImage: `url(${aboutVisionMission})` }}
+            />
+            <div className="relative z-10 grid md:grid-cols-2 gap-8">
+              <div className="group animate-fade-in-delay-3">
+                <div className="bg-card/95 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-card hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-primary/20 to-transparent rounded-bl-3xl" />
+                  <div className="relative z-10">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-dark rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <Target className="w-6 h-6 text-white" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-primary">
+                        {t('vision.title')}
+                      </h3>
                     </div>
-                    <h3 className="text-2xl font-bold text-secondary">
-                      {t('mission.title')}
-                    </h3>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {t('vision.text')}
+                    </p>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {t('mission.text')}
-                  </p>
+                </div>
+              </div>
+              
+              <div className="group animate-fade-in-delay-4">
+                <div className="bg-card/95 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-card hover:shadow-elegant transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-secondary/20 to-transparent rounded-bl-3xl" />
+                  <div className="relative z-10">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <Rocket className="w-6 h-6 text-white" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-secondary">
+                        {t('mission.title')}
+                      </h3>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {t('mission.text')}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
