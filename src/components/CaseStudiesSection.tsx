@@ -129,9 +129,6 @@ export const CaseStudiesSection = () => {
             Découvrez comment nous pouvons transformer votre entreprise
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg">
-              Voir plus d'études de cas
-            </Button>
             <Button variant="outline" size="lg">
               Demander une consultation
             </Button>
