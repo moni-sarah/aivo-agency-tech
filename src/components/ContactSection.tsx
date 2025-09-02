@@ -60,7 +60,7 @@ export const ContactSection = () => {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-br from-background to-primary/5 relative overflow-hidden">
+    <section id="contact" className="py-24 bg-gradient-to-br from-background to-primary/5 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 -left-20 w-60 h-60 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-full blur-3xl animate-float" />

@@ -10,7 +10,7 @@ export const AboutSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="py-24 bg-gradient-to-br from-background via-background/95 to-primary/5 relative overflow-hidden">
+    <section id="about" className="py-24 bg-gradient-to-br from-background via-background/95 to-primary/5 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-full blur-3xl animate-float" />
