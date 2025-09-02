@@ -125,9 +125,6 @@ export const CaseStudiesSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-muted-foreground mb-6">
-            Découvrez comment nous pouvons transformer votre entreprise
-          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" size="lg">
               Demander une consultation
