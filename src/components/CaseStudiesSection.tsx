@@ -124,14 +124,6 @@ export const CaseStudiesSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" size="lg">
-              Demander une consultation
-            </Button>
-          </div>
-        </div>
-
         {/* Case Study Details Modal */}
         <Dialog open={!!selectedStudy} onOpenChange={() => setSelectedStudy(null)}>
           <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
