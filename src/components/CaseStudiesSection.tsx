@@ -109,12 +109,6 @@ export const CaseStudiesSection = () => {
                 </div>
                 
                 <div className="pt-4 border-t border-border">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-sm font-medium text-muted-foreground">Résultats</span>
-                    <Badge className="bg-gradient-to-r from-green-500/10 to-emerald-500/10 text-green-700 border-green-200">
-                      {study.results}
-                    </Badge>
-                  </div>
                   <Button 
                     onClick={() => setSelectedStudy(study)}
                     variant="outline" 
