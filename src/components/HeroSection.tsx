@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Sparkles } from 'lucide-react';
@@ -6,6 +6,27 @@ import heroImage from '@/assets/hero-ai-tech.jpg';
 
 export const HeroSection: React.FC = () => {
   const { t } = useLanguage();
+  
+  const automationTexts = [
+    "Automate Your Contention",
+    "Automate your business", 
+    "Automate your video",
+    "Automate your Support",
+    "Automate your system",
+    "Automate your sales",
+    "Automate your content",
+    "Automate your socials"
+  ];
+  
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % automationTexts.length);
+    }, 2000);
+    
+    return () => clearInterval(interval);
+  }, [automationTexts.length]);
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -28,7 +49,9 @@ export const HeroSection: React.FC = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white mb-8">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium">Intelligence Artificielle Avancée</span>
+            <span className="text-sm font-medium transition-all duration-300 ease-in-out">
+              {automationTexts[currentTextIndex]}
+            </span>
           </div>
 
           {/* Main Headline */}
