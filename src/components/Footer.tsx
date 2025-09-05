@@ -30,7 +30,7 @@ export const Footer = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-1">{t('contact.info.email')}</h4>
-                <p className="text-muted-foreground">contact@bossotech.ch</p>
+                <p className="text-muted-foreground">contact@aivo-agency.ch</p>
               </div>
             </div>
             
@@ -47,7 +47,7 @@ export const Footer = () => {
 
           <div className="mt-12 pt-8 border-t border-border">
             <p className="text-sm text-muted-foreground">
-              © 2024 BossoTech. Tous droits réservés.
+              © 2024 aivo agency. Tous droits réservés.
             </p>
           </div>
         </div>

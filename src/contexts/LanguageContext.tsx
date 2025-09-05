@@ -41,10 +41,10 @@ const translations = {
     
     // About Section
     'about.title': 'À propos de nous',
-    'about.story': 'Chez BossoTech, tout a commencé par une conviction forte : l\'intelligence artificielle peut libérer les professionnels des tâches répétitives pour qu\'ils se concentrent sur ce qui crée de la valeur — la relation client, la stratégie et le développement.',
-    'about.founding': 'Fondée par une passionnée de technologie et enthousiaste en intelligence artificielle, BossoTech s\'est donné pour mission de rendre l\'automatisation accessible, efficace et réellement utile, quel que soit le secteur d\'activité.',
+    'about.story': 'Chez aivo agency, tout a commencé par une conviction forte : l\'intelligence artificielle peut libérer les professionnels des tâches répétitives pour qu\'ils se concentrent sur ce qui crée de la valeur — la relation client, la stratégie et le développement.',
+    'about.founding': 'Fondée par une passionnée de technologie et enthousiaste en intelligence artificielle, aivo agency s\'est donné pour mission de rendre l\'automatisation accessible, efficace et réellement utile, quel que soit le secteur d\'activité.',
     'about.challenges': 'Face aux défis du quotidien – surcharge de travail, gestion des demandes, manque de temps – nous avons créé des agents IA sur mesure capables de répondre automatiquement aux clients, de gérer les rendez-vous, de filtrer les appels ou d\'assister dans des processus métiers variés.',
-    'about.today': 'Aujourd\'hui, BossoTech accompagne des entreprises suisses de différentes tailles et secteurs, avec des solutions fiables, évolutives et faciles à intégrer.',
+    'about.today': 'Aujourd\'hui, aivo agency accompagne des entreprises suisses de différentes tailles et secteurs, avec des solutions fiables, évolutives et faciles à intégrer.',
     
     // Vision & Mission
     'vision.title': 'Notre Vision',
@@ -123,10 +123,10 @@ const translations = {
     
     // About Section
     'about.title': 'About Us',
-    'about.story': 'At BossoTech, it all started with a strong conviction: artificial intelligence can free professionals from repetitive tasks so they can focus on what creates value — customer relationships, strategy and development.',
-    'about.founding': 'Founded by a technology enthusiast passionate about artificial intelligence, BossoTech has made it its mission to make automation accessible, efficient and truly useful, regardless of the sector of activity.',
+    'about.story': 'At aivo agency, it all started with a strong conviction: artificial intelligence can free professionals from repetitive tasks so they can focus on what creates value — customer relationships, strategy and development.',
+    'about.founding': 'Founded by a technology enthusiast passionate about artificial intelligence, aivo agency has made it its mission to make automation accessible, efficient and truly useful, regardless of the sector of activity.',
     'about.challenges': 'Faced with daily challenges – work overload, request management, lack of time – we have created custom AI agents capable of automatically responding to customers, managing appointments, filtering calls or assisting in various business processes.',
-    'about.today': 'Today, BossoTech supports Swiss companies of different sizes and sectors, with reliable, scalable and easy-to-integrate solutions.',
+    'about.today': 'Today, aivo agency supports Swiss companies of different sizes and sectors, with reliable, scalable and easy-to-integrate solutions.',
     
     // Vision & Mission
     'vision.title': 'Our Vision',
@@ -205,10 +205,10 @@ const translations = {
     
     // About Section
     'about.title': 'Über uns',
-    'about.story': 'Bei BossoTech begann alles mit einer starken Überzeugung: Künstliche Intelligenz kann Fachkräfte von repetitiven Aufgaben befreien, damit sie sich auf wertschöpfende Tätigkeiten konzentrieren können — Kundenbeziehungen, Strategie und Entwicklung.',
-    'about.founding': 'Gegründet von einer Technologie-Enthusiastin und KI-Begeisterten hat sich BossoTech zur Mission gemacht, Automatisierung zugänglich, effizient und wirklich nützlich zu machen, unabhängig vom Tätigkeitsbereich.',
+    'about.story': 'Bei aivo agency begann alles mit einer starken Überzeugung: Künstliche Intelligenz kann Fachkräfte von repetitiven Aufgaben befreien, damit sie sich auf wertschöpfende Tätigkeiten konzentrieren können — Kundenbeziehungen, Strategie und Entwicklung.',
+    'about.founding': 'Gegründet von einer Technologie-Enthusiastin und KI-Begeisterten hat sich aivo agency zur Mission gemacht, Automatisierung zugänglich, effizient und wirklich nützlich zu machen, unabhängig vom Tätigkeitsbereich.',
     'about.challenges': 'Angesichts der täglichen Herausforderungen – Arbeitsüberlastung, Anfragenmanagement, Zeitmangel – haben wir maßgeschneiderte KI-Agenten entwickelt, die automatisch auf Kunden antworten, Termine verwalten, Anrufe filtern oder bei verschiedenen Geschäftsprozessen unterstützen können.',
-    'about.today': 'Heute unterstützt BossoTech Schweizer Unternehmen verschiedener Größen und Branchen mit zuverlässigen, skalierbaren und einfach zu integrierenden Lösungen.',
+    'about.today': 'Heute unterstützt aivo agency Schweizer Unternehmen verschiedener Größen und Branchen mit zuverlässigen, skalierbaren und einfach zu integrierenden Lösungen.',
     
     // Vision & Mission
     'vision.title': 'Unsere Vision',
