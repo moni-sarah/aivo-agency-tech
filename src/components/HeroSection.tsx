@@ -78,13 +78,6 @@ export const HeroSection: React.FC = () => {
               {t('hero.cta.primary')}
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button 
-              variant="outline"
-              size="lg"
-              className="border-white/30 text-white hover:bg-white/10 transition-smooth backdrop-blur-sm px-8 py-4 text-lg"
-            >
-              {t('hero.cta.secondary')}
-            </Button>
           </div>
 
           {/* Stats or Trust Indicators */}
