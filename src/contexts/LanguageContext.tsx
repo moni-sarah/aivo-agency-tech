@@ -26,7 +26,8 @@ const translations = {
     'hero.cta.secondary': 'En savoir plus',
     
     // Company
-    'company.name': 'BossoTech',
+    'company.name': 'aivo agency',
+    'company.subtitle': 'ai automation agency',
     
     // Services
     'services.title': 'Nos Services',
@@ -107,7 +108,8 @@ const translations = {
     'hero.cta.secondary': 'Learn More',
     
     // Company
-    'company.name': 'BossoTech',
+    'company.name': 'aivo agency',
+    'company.subtitle': 'ai automation agency',
     
     // Services
     'services.title': 'Our Services',
@@ -188,7 +190,8 @@ const translations = {
     'hero.cta.secondary': 'Mehr erfahren',
     
     // Company
-    'company.name': 'BossoTech',
+    'company.name': 'aivo agency',
+    'company.subtitle': 'KI-Automatisierungsagentur',
     
     // Services
     'services.title': 'Unsere Dienstleistungen',

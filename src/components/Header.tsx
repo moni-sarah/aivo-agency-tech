@@ -13,13 +13,18 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-3">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">BT</span>
+                <span className="text-white font-bold text-sm">AI</span>
               </div>
-              <span className="text-h3 font-bold text-gradient">
-                {t('company.name')}
-              </span>
+              <div className="flex flex-col">
+                <span className="text-h3 font-bold text-gradient">
+                  {t('company.name')}
+                </span>
+                <span className="text-xs text-muted-foreground -mt-1">
+                  {t('company.subtitle')}
+                </span>
+              </div>
             </div>
           </div>
 
