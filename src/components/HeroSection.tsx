@@ -73,6 +73,7 @@ export const HeroSection: React.FC = () => {
             <Button 
               size="lg"
               className="bg-white text-primary hover:bg-white/90 transition-smooth shadow-glow font-semibold px-8 py-4 text-lg"
+              onClick={() => window.open('https://calendly.com/aivo-ai-agency/30min?back=1&month=2025-09', '_blank')}
             >
               {t('hero.cta.primary')}
               <ArrowRight className="w-5 h-5 ml-2" />
