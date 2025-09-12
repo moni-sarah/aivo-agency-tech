@@ -83,10 +83,6 @@ export const HeroSection: React.FC = () => {
           {/* Stats or Trust Indicators */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">500+</div>
-              <div className="text-white/70">Entreprises transformées</div>
-            </div>
-            <div className="text-center">
               <div className="text-3xl font-bold text-white mb-2">95%</div>
               <div className="text-white/70">Réduction des coûts</div>
             </div>
