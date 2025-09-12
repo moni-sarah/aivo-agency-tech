@@ -30,7 +30,7 @@ export const Footer = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-1">{t('contact.info.email')}</h4>
-                <p className="text-muted-foreground">contact@aivo-agency.ch</p>
+                <p className="text-muted-foreground">support@aiagency.com</p>
               </div>
             </div>
             
