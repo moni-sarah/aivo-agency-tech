@@ -64,7 +64,7 @@ export const AboutSection = () => {
                 <img 
                   src={aboutBusinessTransformation} 
                   alt="Business Transformation" 
-                  className="relative z-10 w-full h-[400px] object-cover rounded-2xl shadow-elegant group-hover:shadow-glow transition-all duration-500"
+                  className="relative z-10 w-full h-[400px] object-cover rounded-2xl shadow-elegant group-hover:shadow-glow transition-all duration-500 animate-fade-in hover-scale"
                 />
               </div>
               
