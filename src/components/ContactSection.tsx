@@ -83,7 +83,7 @@ export const ContactSection = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start max-w-4xl mx-auto">
+          <div className="max-w-2xl mx-auto">
             {/* Contact Form */}
             <div className="animate-slide-in-left">
               <Card className="shadow-elegant hover:shadow-glow transition-all duration-500 border-border bg-card/80 backdrop-blur-sm">
@@ -179,21 +179,6 @@ export const ContactSection = () => {
                     </Button>
                   </form>
                 </CardContent>
-              </Card>
-            </div>
-
-            {/* Call to Action */}
-            <div className="animate-slide-in-right">
-              <Card className="p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border border-primary/20 shadow-elegant">
-                <h3 className="text-xl font-bold mb-4 text-foreground">
-                  {t('contact.cta.title')}
-                </h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  {t('contact.cta.description')}
-                </p>
-                <Button className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white font-semibold">
-                  {t('contact.cta.button')}
-                </Button>
               </Card>
             </div>
           </div>
