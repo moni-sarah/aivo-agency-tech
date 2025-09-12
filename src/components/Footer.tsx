@@ -40,7 +40,7 @@ export const Footer = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-1">{t('contact.info.location')}</h4>
-                <p className="text-muted-foreground">Suisse</p>
+                <p className="text-muted-foreground">Geneva</p>
               </div>
             </div>
           </div>
