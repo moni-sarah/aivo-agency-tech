@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import aiLogo from '@/assets/ai-logo.png';
 
 export const Header: React.FC = () => {
   const { t } = useLanguage();
@@ -14,9 +15,11 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">AI</span>
-              </div>
+              <img 
+                src={aiLogo} 
+                alt="AI Agency Logo" 
+                className="w-8 h-8 rounded-lg"
+              />
               <div className="flex flex-col">
                 <span className="text-h3 font-bold text-gradient">
                   {t('company.name')}
