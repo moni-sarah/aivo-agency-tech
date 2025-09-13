@@ -20,7 +20,7 @@ export const Footer = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-1">{t('contact.info.phone')}</h4>
-                <p className="text-muted-foreground">+41 XX XXX XX XX</p>
+                <p className="text-muted-foreground">0041 779883672</p>
               </div>
             </div>
             
